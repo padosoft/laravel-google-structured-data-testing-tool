@@ -1,0 +1,37 @@
+    {
+    "errors": [
+        {
+            "ownerSet": {
+                "RICH_SNIPPETS_BREADCRUMBS": true
+            },
+            "errorType": "MISSING_FIELD_WITHOUT_TYPE",
+            "args": [
+                "title"
+            ],
+            "begin": 23736,
+            "end": 23950,
+            "isSevere": true,
+            "errorID": 0,
+            "ownerToSeverity": {
+                "RICH_SNIPPETS_BREADCRUMBS": "ERROR"
+            }
+        },
+        {
+            "ownerSet": {
+                "SPORE": true
+            },
+            "errorType": "INVALID_PREDICATE",
+            "args": [
+                "http://rdf.data-vocabulary.org/#tiltlle",
+                "http://rdf.data-vocabulary.org/#Breadcrumb"
+            ],
+            "begin": 23764,
+            "end": 23839,
+            "isSevere": true,
+            "errorID": 1,
+            "ownerToSeverity": {
+                "SPORE": "ERROR"
+            }
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "name": "padosoft/laravel-google-structured-data-testing-tool",
+    "description": "Laravel Laravel Package for testing Schema.org markup or other structured data formats with google structured data testing tool undocumented API.",
+    "keywords": [
+        "padosoft",
+        "laravel-google-structured-data-testing-tool",
+        "schema.org",
+        "Structured Data",
+        "markup",
+        "google",
+        "Google’s Structured Data Testing Tool",
+        "API"
+    ],
+    "homepage": "https://github.com/padosoft/laravel-google-structured-data-testing-tool",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lorenzo Padovani",
+            "email": "helpdesk@padosoft.com",
+            "homepage": "https://www.padosoft.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=7.0.0",
+        "illuminate/support": "^5.0",
+        "illuminate/console": "~5.0",
+        "tightenco/mailthief": "0.*",
+        "padosoft/support": "^1.9"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.2",
+        "phpunit/phpunit": "^5.0",
+        "mockery/mockery": "^0.9.5",
+        "padosoft/laravel-test": "^2.0",
+        "padosoft/test": "^0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Padosoft\\Laravel\\Google\\StructuredDataTestingTool\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php"
+        ],
+        "psr-4": {
+            "Padosoft\\Laravel\\Google\\StructuredDataTestingTool\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}

@@ -1,0 +1,268 @@
+{
+    "cse": [
+        "pmr-cse_image",
+        "pmr-cse_image-src",
+        "pmr-hcard",
+        "pmr-hcard-fn",
+        "pmr-hcard-fn-istituto",
+        "pmr-hcard-fn-istituto_medlight",
+        "pmr-hcard-fn-medlight",
+        "pmr-hcard-name",
+        "pmr-hcard-name-name-family_name-medlight",
+        "pmr-hcard-name-name-given_name-istituto",
+        "pmr-metatags-article_modified_time",
+        "pmr-metatags-article_modified_time-00",
+        "pmr-metatags-article_modified_time-02",
+        "pmr-metatags-article_modified_time-04",
+        "pmr-metatags-article_modified_time-19t11",
+        "pmr-metatags-article_modified_time-2016",
+        "pmr-metatags-article_modified_time-2016-04-19t11",
+        "pmr-metatags-article_modified_time-30",
+        "pmr-metatags-article_modified_time-53",
+        "pmr-metatags-article_published_time",
+        "pmr-metatags-article_published_time-00",
+        "pmr-metatags-article_published_time-02",
+        "pmr-metatags-article_published_time-04",
+        "pmr-metatags-article_published_time-14",
+        "pmr-metatags-article_published_time-2016",
+        "pmr-metatags-article_published_time-2016-04-20t07",
+        "pmr-metatags-article_published_time-20t07",
+        "pmr-metatags-article_published_time-30",
+        "pmr-metatags-article_section",
+        "pmr-metatags-article_section-approfondimenti",
+        "pmr-metatags-format-detection",
+        "pmr-metatags-format-detection-no",
+        "pmr-metatags-format-detection-telephone",
+        "pmr-metatags-format-detection-telephone_no",
+        "pmr-metatags-og_description",
+        "pmr-metatags-og_image",
+        "pmr-metatags-og_image_height",
+        "pmr-metatags-og_image_height-510",
+        "pmr-metatags-og_image_width",
+        "pmr-metatags-og_image_width-825",
+        "pmr-metatags-og_locale",
+        "pmr-metatags-og_locale-it_it",
+        "pmr-metatags-og_site_name",
+        "pmr-metatags-og_site_name-centro",
+        "pmr-metatags-og_site_name-centro_medlight_firenze",
+        "pmr-metatags-og_site_name-firenze",
+        "pmr-metatags-og_site_name-medlight",
+        "pmr-metatags-og_title",
+        "pmr-metatags-og_title-centro",
+        "pmr-metatags-og_title-costante",
+        "pmr-metatags-og_title-crescita",
+        "pmr-metatags-og_title-firenze",
+        "pmr-metatags-og_title-il",
+        "pmr-metatags-og_title-in",
+        "pmr-metatags-og_title-medlight",
+        "pmr-metatags-og_title-poliambulatorio",
+        "pmr-metatags-og_title-specialistico",
+        "pmr-metatags-og_type",
+        "pmr-metatags-og_type-article",
+        "pmr-metatags-og_updated_time",
+        "pmr-metatags-og_updated_time-00",
+        "pmr-metatags-og_updated_time-02",
+        "pmr-metatags-og_updated_time-04",
+        "pmr-metatags-og_updated_time-19t11",
+        "pmr-metatags-og_updated_time-2016",
+        "pmr-metatags-og_updated_time-2016-04-19t11",
+        "pmr-metatags-og_updated_time-30",
+        "pmr-metatags-og_updated_time-53",
+        "pmr-metatags-og_url",
+        "pmr-metatags-twitter_card",
+        "pmr-metatags-twitter_card-summary",
+        "pmr-metatags-twitter_description",
+        "pmr-metatags-twitter_image",
+        "pmr-metatags-twitter_title",
+        "pmr-metatags-twitter_title-centro",
+        "pmr-metatags-twitter_title-costante",
+        "pmr-metatags-twitter_title-crescita",
+        "pmr-metatags-twitter_title-firenze",
+        "pmr-metatags-twitter_title-il",
+        "pmr-metatags-twitter_title-in",
+        "pmr-metatags-twitter_title-medlight",
+        "pmr-metatags-twitter_title-poliambulatorio",
+        "pmr-metatags-twitter_title-specialistico",
+        "pmr-metatags-viewport",
+        "pmr-metatags-viewport-1.0",
+        "pmr-metatags-viewport-device",
+        "pmr-metatags-viewport-device-width",
+        "pmr-metatags-viewport-initial",
+        "pmr-metatags-viewport-initial-scale",
+        "pmr-metatags-viewport-scale",
+        "pmr-metatags-viewport-width",
+        "pmr-name",
+        "pmr-name-family_name",
+        "pmr-name-family_name-medlight",
+        "pmr-name-given_name",
+        "pmr-name-given_name-istituto",
+        "pmr-person",
+        "pmr-person-name",
+        "pmr-person-name-istituto",
+        "pmr-person-name-istituto_medlight",
+        "pmr-person-name-medlight",
+        "pmr-thing"
+    ],
+    "isRendered": false,
+    "tripleGroups": [
+        {
+            "errorsByOwner": {
+                "SPORE": 1,
+                "RICH_SNIPPETS_BREADCRUMBS": 1
+            },
+            "warningsByOwner": {},
+            "ownerSet": {
+                "RICH_SNIPPETS_BREADCRUMBS": true
+            },
+            "nodes": [
+                {
+                    "type": {
+                        "pred": "itemtype",
+                        "value": "Breadcrumb",
+                        "errors": [],
+                        "begin": 23736,
+                        "end": 23950
+                    },
+                    "errors": [
+                        {
+                            "ownerSet": {
+                                "RICH_SNIPPETS_BREADCRUMBS": true
+                            },
+                            "errorType": "MISSING_FIELD_WITHOUT_TYPE",
+                            "args": [
+                                "title"
+                            ],
+                            "begin": 23736,
+                            "end": 23950,
+                            "isSevere": true,
+                            "errorID": 0,
+                            "ownerToSeverity": {
+                                "RICH_SNIPPETS_BREADCRUMBS": "ERROR"
+                            }
+                        }
+                    ],
+                    "properties": [
+                        {
+                            "pred": "url",
+                            "value": "http://www.medlight.it/",
+                            "errors": [],
+                            "begin": 23764,
+                            "end": 23839
+                        },
+                        {
+                            "pred": "tiltlle",
+                            "value": "Home",
+                            "errors": [
+                                {
+                                    "ownerSet": {
+                                        "SPORE": true
+                                    },
+                                    "errorType": "INVALID_PREDICATE",
+                                    "args": [
+                                        "http://rdf.data-vocabulary.org/#tiltlle",
+                                        "http://rdf.data-vocabulary.org/#Breadcrumb"
+                                    ],
+                                    "begin": 23764,
+                                    "end": 23839,
+                                    "isSevere": true,
+                                    "errorID": 1,
+                                    "ownerToSeverity": {
+                                        "SPORE": "ERROR"
+                                    }
+                                }
+                            ],
+                            "begin": 23764,
+                            "end": 23839
+                        }
+                    ],
+                    "nodeProperties": [],
+                    "numErrors": 2,
+                    "numWarnings": 0
+                }
+            ],
+            "numNodesWithError": 1,
+            "numNodesWithWarning": 0,
+            "numErrors": 2,
+            "numWarnings": 0,
+            "type": "Breadcrumb"
+        },
+        {
+            "errorsByOwner": {},
+            "warningsByOwner": {},
+            "ownerSet": {},
+            "nodes": [
+                {
+                    "type": {
+                        "pred": "itemtype",
+                        "value": "Person",
+                        "errors": [],
+                        "begin": 25028,
+                        "end": 25230
+                    },
+                    "errors": [],
+                    "properties": [
+                        {
+                            "pred": "name",
+                            "value": "Istituto Medlight",
+                            "errors": [],
+                            "begin": 25142,
+                            "end": 25214
+                        }
+                    ],
+                    "nodeProperties": [],
+                    "numErrors": 0,
+                    "numWarnings": 0
+                }
+            ],
+            "numNodesWithError": 0,
+            "numNodesWithWarning": 0,
+            "numErrors": 0,
+            "numWarnings": 0,
+            "type": "Person"
+        }
+    ],
+    "numObjects": 2,
+    "html": "",
+    "errors": [
+        {
+            "ownerSet": {
+                "RICH_SNIPPETS_BREADCRUMBS": true
+            },
+            "errorType": "MISSING_FIELD_WITHOUT_TYPE",
+            "args": [
+                "title"
+            ],
+            "begin": 23736,
+            "end": 23950,
+            "isSevere": true,
+            "errorID": 0,
+            "ownerToSeverity": {
+                "RICH_SNIPPETS_BREADCRUMBS": "ERROR"
+            }
+        },
+        {
+            "ownerSet": {
+                "SPORE": true
+            },
+            "errorType": "INVALID_PREDICATE",
+            "args": [
+                "http://rdf.data-vocabulary.org/#tiltlle",
+                "http://rdf.data-vocabulary.org/#Breadcrumb"
+            ],
+            "begin": 23764,
+            "end": 23839,
+            "isSevere": true,
+            "errorID": 1,
+            "ownerToSeverity": {
+                "SPORE": "ERROR"
+            }
+        }
+    ],
+    "totalNumErrors": 2,
+    "totalNumWarnings": 0,
+    "isValidForVoiceActions": false,
+    "voiceActionsWriteAttempted": false,
+    "voiceActionsWriteSuccessful": false,
+    "isAppCardValidation": false,
+    "isAtomXmlValidation": false
+}
