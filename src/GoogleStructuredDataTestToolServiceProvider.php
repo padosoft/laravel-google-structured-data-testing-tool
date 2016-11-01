@@ -63,9 +63,10 @@ class GoogleStructuredDataTestToolServiceProvider extends ServiceProvider
      */
     public function dummy($app)
     {
+        $i=0;
         if($app){
-            return true;
+            return $i;
         }
-        return false;
+        return $i++;
     }
 }
