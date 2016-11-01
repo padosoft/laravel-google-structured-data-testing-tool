@@ -39,6 +39,7 @@ class GoogleStructuredDataTestToolServiceProvider extends ServiceProvider
     {
         $this->app['command.google-markup:test'] = $this->app->share(
             function ($app) {
+                $this->dummy($app);
                 return new GoogleStructuredDataTestTool();
             }
         );
@@ -54,5 +55,17 @@ class GoogleStructuredDataTestToolServiceProvider extends ServiceProvider
     public function provides()
     {
         return ['command.google-markup:test'];
+    }
+
+    /**
+     * @param $app
+     * @return bool
+     */
+    public function dummy($app)
+    {
+        if($app){
+            return true;
+        }
+        return false;
     }
 }

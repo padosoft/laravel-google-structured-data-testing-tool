@@ -219,7 +219,7 @@ EOF;
      */
     private function findUrls($path, \Illuminate\Console\Command $cmd)
     {
-        $urls = $this->getUrl($path, $cmd);
+        $urls = $this->getUrl($path);
         if (count($urls) > 0) {
             $cmd->line('Find url: <comment>' . $path . '</comment>');
             return $urls;
