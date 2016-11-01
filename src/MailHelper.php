@@ -54,7 +54,7 @@ class MailHelper
         Mail::send(
             Config::get('laravel-google-structured-data-testing-tool.mailViewName'),
             ['vul' => $vul],
-            function ($message) use ($mail, $soggetto) {
+            function (\Illuminate\Mail\Message $message) use ($mail, $soggetto) {
                 $message->from(
                     Config::get('laravel-google-structured-data-testing-tool.mailFrom'),
                     Config::get('laravel-google-structured-data-testing-tool.mailFromName')

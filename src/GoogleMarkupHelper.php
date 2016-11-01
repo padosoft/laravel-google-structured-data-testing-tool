@@ -90,7 +90,7 @@ class GoogleMarkupHelper
             $this->command->line("cURL info: " . print_r($information, true));
             $this->command->line("Response: " . get_var_dump_output($response));
             return false;
-        } elseif ($this->command->option('verbose')==true) {
+        } elseif ($this->command->option('verbose')=="true") {
             $this->command->line("cURL opt array:");
             $this->command->line(get_var_dump_output($optArray));
             $this->command->line("cURL info: " . print_r($information, true));

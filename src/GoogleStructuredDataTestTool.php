@@ -4,8 +4,6 @@ namespace Padosoft\Laravel\Google\StructuredDataTestingTool;
 
 use Illuminate\Console\Command;
 use Config;
-use Illuminate\Support\Facades\Artisan;
-
 
 class GoogleStructuredDataTestTool extends Command
 {
@@ -108,7 +106,7 @@ EOF;
     /**
      * @param $mail
      * @param $nomailok
-     * @param $tuttoOk
+     * @param boolean $tuttoOk
      */
     private function notifyResult($mail, $nomailok, $tuttoOk)
     {
