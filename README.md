@@ -5,7 +5,7 @@
 [![Build Status](https://img.shields.io/travis/padosoft/laravel-google-structured-data-testing-tool/master.svg?style=flat-square)](https://travis-ci.org/padosoft/laravel-google-structured-data-testing-tool)
 [![Quality Score](https://img.shields.io/scrutinizer/g/padosoft/laravel-google-structured-data-testing-tool.svg?style=flat-square)](https://scrutinizer-ci.com/g/padosoft/laravel-google-structured-data-testing-tool)
 [![Total Downloads](https://img.shields.io/packagist/dt/padosoft/laravel-google-structured-data-testing-tool.svg?style=flat-square)](https://packagist.org/packages/padosoft/laravel-google-structured-data-testing-tool)
-[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/9482504c-ed2d-423f-94bb-1cf3a6babff0.svg?style=flat-square)](https://insight.sensiolabs.com/projects/9482504c-ed2d-423f-94bb-1cf3a6babff0)
+[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/3a39da13-6f5f-4041-9700-81e8c1f2e387.svg?style=flat-square)](https://insight.sensiolabs.com/projects/3a39da13-6f5f-4041-9700-81e8c1f2e387)
 
 This package provides a series of commands to automate and bulk check of Schema.org markup or other structured data formats with google structured data testing tool undocumented API that I found.
 Google already provides a good tool for testing markup data using the Search Console in Webmaster Tools.
