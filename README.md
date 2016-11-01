@@ -17,6 +17,25 @@ This package try to resolve these problems.
 Note: This is an undocumented Google API. I found it when I interacted with Google’s Structured Data Testing Tool and Google Chrome debug console, 
  thus there is no warranty that the API remains public or that the API changes make the package unusable.
 
+Table of Contents
+=================
+
+   * [Laravel Package for testing Schema.org markup or other structured data formats with google structured data testing tool undocumented API.](#laravel-package-for-testing-schemaorg-markup-or-other-structured-data-formats-with-google-structured-data-testing-tool-undocumented-api)
+      * [WARNING](#warning)
+      * [Requires](#requires)
+      * [Installation](#installation)
+      * [USAGE](#usage)
+         * [EXAMPLE:](#example)
+      * [SCHEDULE COMMAND](#schedule-command)
+      * [SCREENSHOOTS](#screenshoots)
+      * [Change log](#change-log)
+      * [Testing](#testing)
+      * [Contributing](#contributing)
+      * [Security](#security)
+      * [Credits](#credits)
+      * [About Padosoft](#about-padosoft)
+      * [License](#license)
+
 ##Requires
   
 - php: >=7.0.0
