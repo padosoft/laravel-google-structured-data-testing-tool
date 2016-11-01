@@ -8,7 +8,7 @@
         "Structured Data",
         "markup",
         "google",
-        "Google's Structured Data Testing Tool",
+        "Google Structured Data Testing Tool",
         "API"
     ],
     "homepage": "https://github.com/padosoft/laravel-google-structured-data-testing-tool",
@@ -41,9 +41,6 @@
         }
     },
     "autoload-dev": {
-        "classmap": [
-            "tests/TestCase.php"
-        ],
         "psr-4": {
             "Padosoft\\Laravel\\Google\\StructuredDataTestingTool\\Test\\": "tests"
         }

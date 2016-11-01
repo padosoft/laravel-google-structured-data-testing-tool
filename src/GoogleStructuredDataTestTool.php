@@ -2,8 +2,8 @@
 
 namespace Padosoft\Laravel\Google\StructuredDataTestingTool;
 
-use Illuminate\Console\Command;
 use Config;
+use Illuminate\Console\Command;
 
 class GoogleStructuredDataTestTool extends Command
 {
@@ -121,16 +121,22 @@ EOF;
         $this->notify($tuttoOk);
     }
 
-
+    /**
+     * @param boolean $result
+     */
     private function notify($result)
     {
         if ($result) {
-            return $this->notifyOK();
+            $this->notifyOK();
+            return;
         }
 
         $this->notifyKO();
     }
 
+    /**
+     *
+     */
     private function notifyOK()
     {
         $esito = Config::get('laravel-google-structured-data-testing-tool.mailSubjectSuccess');
@@ -138,6 +144,9 @@ EOF;
         $this->line('');
     }
 
+    /**
+     *
+     */
     private function notifyKO()
     {
         $esito = Config::get('laravel-google-structured-data-testing-tool.mailSubjetcAlarm');
@@ -147,7 +156,7 @@ EOF;
 
     /**
      * @param $mail
-     * @param $tuttoOk
+     * @param boolean $tuttoOk
      */
     private function sendEmail($mail, $tuttoOk)
     {
