@@ -59,7 +59,7 @@ class GoogleStructuredDataTestToolServiceProvider extends ServiceProvider
 
     /**
      * @param $app
-     * @return bool
+     * @return integer
      */
     public function dummy($app)
     {
