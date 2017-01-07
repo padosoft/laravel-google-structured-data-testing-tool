@@ -53,7 +53,7 @@ class GoogleStructuredDataTestToolTest extends TestBaseOrchestra
             '--whitelist' => 'pippo,paperino'
         ]);
         $output = Artisan::output();
-        $this->assertContains('markup data is ok', $output);
+        $this->assertContains('warnings', $output);
     }
 
     /** @test */
