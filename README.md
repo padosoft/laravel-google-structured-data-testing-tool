@@ -36,7 +36,7 @@ Table of Contents
       * [About Padosoft](#about-padosoft)
       * [License](#license)
 
-##Requires
+## Requires
   
 - php: >=7.0.0
 - illuminate/support: ^5.0
