@@ -90,7 +90,7 @@ EOF;
 
         foreach ($urls as $url) {
 
-            $this->line("Analizing <info>" . ($numUrl + 1) . "</info> di <info>" . count($urls) . "</info>");
+            $this->line("Analyzing <info>" . ($numUrl + 1) . "</info> of <info>" . count($urls) . "</info>");
 
             if(!$this->checkStructuredData($url, $whitelist)){
                 $tuttoOk = false;
