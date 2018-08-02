@@ -62,7 +62,7 @@
                         color: darkorange;font-weight:bold;
                 @endif
                         '>
-                    <td><a href="https://search.google.com/structured-data/testing-tool/u/0/?hl=it#url=<?php echo urlencode($nameOriginal); ?>">
+                    <td><a href="https://search.google.com/structured-data/testing-tool/u/0/#url=<?php echo urlencode($nameOriginal); ?>">
                             {{ $nameOriginal }}
                         </a>
                     </td>

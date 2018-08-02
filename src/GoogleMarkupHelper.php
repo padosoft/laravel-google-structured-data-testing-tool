@@ -52,7 +52,7 @@ class GoogleMarkupHelper
                 "content-type: application/x-www-form-urlencoded;charset=UTF-8",
                 "origin: https://search.google.com",
                 "postman-token: 7ee787bf-1fe1-30c6-0b76-3dce8926bd5b",
-                "referer: https://search.google.com/structured-data/testing-tool/u/0/?hl=it",
+                "referer: https://search.google.com/structured-data/testing-tool/u/0/",
                 "user-agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36"
             ),
         );
