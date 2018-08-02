@@ -97,6 +97,8 @@ EOF;
             }
 
             $numUrl++;
+            //Add a sleep so google doesn't think we are spam. thanks to mwight4.
+            sleep(random_int(30,90));
         }
 
         $this->notifyResult($option['mail'], $option['nomailok'], $tuttoOk);
