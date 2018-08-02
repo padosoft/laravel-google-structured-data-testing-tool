@@ -65,14 +65,14 @@ class GoogleStructuredDataTestToolTest extends TestBaseOrchestra
             '--whitelist' => 'pippo,paperino'
         ]);
         $output = Artisan::output();
-        $this->assertContains('markup data is ok', $output);
+        $this->assertNotContains('MISSING_REQUIRED_FIELD', $output);
     }
 
     /** @test */
     public function testHardWorkNoMail()
     {
         Artisan::call('google-markup:test', [
-            'path' => __DIR__ . '\test_file\url.txt',
+            'path' => __DIR__ . '\test_file\url_no_data.txt',
             '--mail' => 'helpdesk@padosoft.com',
             '--nomailok' => 'true',
             '--whitelist' => 'paperino'
@@ -100,13 +100,13 @@ class GoogleStructuredDataTestToolTest extends TestBaseOrchestra
     public function testHardWorkNoMailOk_ButNoOk()
     {
         Artisan::call('google-markup:test', [
-            'path' => __DIR__ . '\test_file\url.txt',
+            'path' => __DIR__ . '\test_file\url_no_data.txt',
             '--mail' => 'helpdesk@padosoft.com',
             '--nomailok' => 'true',
             '--whitelist' => 'paperino'
         ]);
         $output = Artisan::output();
-        $this->assertContains('markup data is ok', $output);
+        $this->assertNotContains('MISSING_REQUIRED_FIELD', $output);
         $this->assertNotRegExp('/email sent/', $output);
     }
 

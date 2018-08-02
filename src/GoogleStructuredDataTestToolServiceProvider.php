@@ -37,14 +37,13 @@ class GoogleStructuredDataTestToolServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app['command.google-markup:test'] = $this->app->share(
-            function ($app) {
-                $this->dummy($app);
+        $this->app->singleton('command.google-markup:test',
+            function () {
                 return new GoogleStructuredDataTestTool();
             }
         );
-        $this->commands('command.google-markup:test');
 
+        $this->commands('command.google-markup:test');
     }
 
     /**
