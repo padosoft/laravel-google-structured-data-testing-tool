@@ -26,7 +26,7 @@
         "illuminate/support": "^5.0",
         "illuminate/console": "~5.0",
         "tightenco/mailthief": "0.*",
-        "padosoft/support": "^1.9"
+        "padosoft/support": "^2.3"
     },
     "require-dev": {
         "orchestra/testbench": "^3.2",
@@ -47,5 +47,12 @@
     },
     "scripts": {
         "test": "vendor/bin/phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Padosoft\\Laravel\\Google\\StructuredDataTestingTool\\GoogleStructuredDataTestToolServiceProvider"
+                ]
+        }
     }
 }
